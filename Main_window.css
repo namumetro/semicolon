@@ -6,12 +6,14 @@
     
     /* header div안에 있는 a Tag의 style 값 */
     header nav div a {
+        margin:auto 10px;
         float:left;
     }
     /* header img 태그의 절대크기 */
     header img {
         width: 50px;
         float:left;
+        margin:auto 10px;
     }
     body{
         font-family: 'Noto Sans KR', sans-serif;
