@@ -4,10 +4,12 @@
     a:visited { color: black; text-decoration: none;}
     
     /* header div안에 있는 a Tag의 style 값 */
-    header div a {
+    header nav div a {
         margin-left: 10px;
     }
-
+    header nav{
+        float:left;
+    }
     /* header img 태그의 절대크기 */
     header img {
         width: 50px;
