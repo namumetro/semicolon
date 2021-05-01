@@ -6,8 +6,6 @@
     /* header div안에 있는 a Tag의 style 값 */
     header nav div a {
         margin-left: 10px;
-    }
-    header div{
         float:left;
     }
     /* header img 태그의 절대크기 */
