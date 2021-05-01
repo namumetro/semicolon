@@ -18,7 +18,9 @@
     body {
         font-family: 'Noto Sans KR', sans-serif;
     }
-
+    header{
+        height:60px;
+    }
 
     /* 개별 Tag(class) 작업은 이곳 밑으로 해주세요 */
     .header-div, .logo{
