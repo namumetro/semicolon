@@ -13,7 +13,9 @@
         width: 50px;
         float:left;
     }
-
+    header{
+       margin: auto 10px;
+    }
 
 
     /* 개별 Tag(class) 작업은 이곳 밑으로 해주세요 */
