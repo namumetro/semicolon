@@ -5,7 +5,8 @@
     
     /* header div안에 있는 a Tag의 style 값 */
     header nav div a {
-        margin: auto 10px;
+        margin-left:10px;
+        line-height:60px;
         float:left;
     }
     /* header img 태그의 절대크기 */
@@ -13,7 +14,9 @@
         width: 50px;
         float:left;
     }
-
+    header{
+        line-height:60px;
+    }
 
 
 
