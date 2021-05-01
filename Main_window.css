@@ -1,15 +1,15 @@
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
-    /* 전체로 적용되야 하는 것은 여기서 부터 개별 Tag 위까지 */
-    /* link 태그 설정 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+    /* 전체로 적용되야 하는 것은 여기서 부터 개별 Tag 위까지 /
+    / link 태그 설정 /
     a:link { color: red; text-decoration: none;}
     a:visited { color: black; text-decoration: none;}
     
-    /* header div안에 있는 a Tag의 style 값 */
+    / header div안에 있는 a Tag의 style 값 /
     header nav div a {
         margin:auto 10px;
         float:left;
     }
-    /* header img 태그의 절대크기 */
+    / header img 태그의 절대크기 /
     header img {
         width: 50px;
         float:left;
@@ -22,27 +22,27 @@
         height:60px;
     }
 
-    /* 개별 Tag(class) 작업은 이곳 밑으로 해주세요 */
-    .header-div, .logo{
-       margin: auto 10px;
-    }
-    .to-right-underline{
+    / 개별 Tag(class) 작업은 이곳 밑으로 해주세요 */
+    .spread-underline {
+        color: #333;
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 0;
         position: relative;
-    }
-    .to-right-underline:after{
+      }
+      .spread-underline:after {    
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
         content: "";
-        position: absolute;
-        left: 0;
-        bottom: -10px;
-        width: 0px;
+        display: block;
         height: 2px;
-        margin: 5px 0 0;
-        transition: all 0.2s ease-in-out;
-        transition-duration: 0.3s;
-        opacity: 0;
-        background-color: #8fd3f4;
-    }
-    .to-right-underline:hover:after{
-        width: 100%;
-        opacity: 1;
-    }
+        left: 50%;
+        position: absolute;
+        background: #ffb000;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+      }
+      .spread-underline:hover:after { 
+        width: 100%; 
+        left: 0; 
+      }
