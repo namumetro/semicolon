@@ -24,7 +24,7 @@
 
     /* 개별 Tag(class) 작업은 이곳 밑으로 해주세요 */
     .spread-underline {
-        color: #777;
+        color: #333;
         text-decoration: none;
         display: inline-block;
         padding: 15px 0;
@@ -38,7 +38,7 @@
         height: 2px;
         left: 50%;
         position: absolute;
-        background: #333;
+        background: #777;
         transition: width 0.3s ease 0s, left 0.3s ease 0s;
         width: 0;
       }
