@@ -66,12 +66,21 @@
         position: absolute;
     }
 
-    /* 일단 사이트 완성되기 전에 쓸 CSS(사이트 완성되면 지우기) */
+    /* member에 적용되는 CSS입니다 */
 
-    h1 {
-        padding-left: 35%;
+    .Member-div{
+        margin-top: 60px;
+        text-align: center;
     }
 
-    p {
-        padding-left: 33.5%;
+    .name-img {
+        width: 140px;
+        
+        
+        /* border: 3px solid black;
+        border-radius: 15%; */
+    }
+
+    .name-h1{
+        font-size: 20px;
     }
