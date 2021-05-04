@@ -192,7 +192,6 @@
 
 @-webkit-keyframes focus-in-contract-bck {
     0% {
-      letter-spacing: 1em;
       -webkit-transform: translateZ(300px);
               transform: translateZ(300px);
       -webkit-filter: blur(12px);
@@ -210,7 +209,6 @@
 
 @keyframes focus-in-contract-bck {
     0% {
-      letter-spacing: 1em;
       -webkit-transform: translateZ(300px);
               transform: translateZ(300px);
       -webkit-filter: blur(12px);
