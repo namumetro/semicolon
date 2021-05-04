@@ -71,7 +71,7 @@
     }
     .main::after{
         position:absolute;
-        background-image:url("HatchfulExport-All/logo.jpg");
+        background-image:url("HatchfulExport-All/logo.png");
         top: 0;
         left: 0;
         z-index: -1;
