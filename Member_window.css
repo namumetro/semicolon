@@ -194,7 +194,7 @@
 
 @-webkit-keyframes focus-in-contract-bck {
     0% {
-      top:-10px;
+      top:-25px;
       -webkit-transform: translateZ(300px);
               transform: translateZ(300px);
       -webkit-filter: blur(12px);
@@ -213,7 +213,7 @@
 
 @keyframes focus-in-contract-bck {
     0% {
-      top:-10px;
+      top:-25px;
       -webkit-transform: translateZ(300px);
               transform: translateZ(300px);
       -webkit-filter: blur(12px);
