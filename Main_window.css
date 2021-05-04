@@ -113,7 +113,7 @@
     right: 10px !important; 
     bottom: 5px !important; 
 }
-/////////
+/* ... */
 .top {
     text-align: center;
     -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
@@ -169,7 +169,7 @@
       opacity: 1;
     }
 }
-////////
+/* ... */
     /* 일단 사이트 완성되기 전에 쓸 CSS(사이트 완성되면 지우기) */
 
     h1 {
