@@ -65,6 +65,9 @@
         right: 10px;
         position: absolute;
     }
+    .main{
+        background-image:url("");
+    }
 /*footer*/
 .blackspace {
     height: 200px;
