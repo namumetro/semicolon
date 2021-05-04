@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap%27');
-.ㄱㄱ{}
+
     /* 전체로 적용되야 하는 것은 여기서 부터 개별 Tag 위까지 */
     /* link 태그 설정 */
     a:link { color: red; text-decoration: none;}
