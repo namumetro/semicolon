@@ -68,7 +68,7 @@
     .main{
         z-index:1;
         position:relative;
-        background-img:url("HatchfulExport-All/logo.png");
+        background-image:url("HatchfulExport-All/logo.png");
         -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
         animation: focus-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
     }
