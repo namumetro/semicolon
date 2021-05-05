@@ -65,7 +65,7 @@
         right: 10px;
         position: absolute;
     }
-    .main:not(h2){
+    .main:not(h1){
         width:100vw;
         height:50vw;
         z-index:1;
@@ -129,8 +129,7 @@
     position:relative;
     margin:0;
     padding:0;
-    top:20vw;
-    filter:blur(0);
+    top:-35vw;
 }
 .top {
     position:relative;
