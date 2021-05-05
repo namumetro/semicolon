@@ -68,6 +68,8 @@
     .main{
         position:relative;
         background:none;
+        width:100vw;
+        height:50vw;
     }
     .main::before{
         position:absolute;
