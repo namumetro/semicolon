@@ -1,9 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
 
     /* 전체로 적용되야 하는 것은 여기서 부터 개별 Tag 위까지 */
     /* link 태그 설정 */
     a:link { color: red; text-decoration: none;}
     a:visited { color: black; text-decoration: none;}
+
+    html {
+        overflow-x:hidden;
+    }
+
+    html::-webkit-scrollbar {
+        width: 9px;
+      }
+    html::-webkit-scrollbar-thumb {
+        background-color: #2f3542;
+        border-radius: 10px;
+        background-clip: padding-box;
+        border: 2px solid transparent;
+      }
+    html::-webkit-scrollbar-track {
+        background-color: rgba(rgba(56, 56, 56, 0.288));
+        border-radius: 10px;
+      }
 
     header{
         height:60px;
@@ -86,6 +105,7 @@
     }
 /*footer*/
 .blackspace {
+    margin-top: 40px;
     height: 200px;
     position: relative;
     background-color: rgba(25, 25, 25, 0.9)
@@ -206,4 +226,50 @@
     }
     p.imsi {
         padding-left: 33.5%;
+    }
+
+    .lt {
+        margin-top: -20px;
+        margin: 50px;
+        font-size: 17px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    .lp{
+        margin-top: -20px;
+    }
+
+    .more-b{
+        /*seting*/
+        /* position: absolute; */
+
+        width: 90px;
+        height: 30px;
+        
+        background-color: black;
+        color: white;
+
+        /* border style */
+        border: white;
+        border-width: 3px;
+        border-radius: 12px;
+    }
+
+    .button-div-c{
+        text-align: right;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .throw {
+        font-size: 7px;
+    }
+
+    .intro-menu{
+        margin-left: 60px;
+        margin-top: 70px;
+    }
+
+    .intro-div{
+        margin-top: 90px;
     }
