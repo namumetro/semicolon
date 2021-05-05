@@ -74,6 +74,7 @@
         background-repeat:no-repeat;
         background-position:center center;
         background-size:contain;
+        filter:blur;
     }
 /*footer*/
 .blackspace {
@@ -125,7 +126,8 @@
 }
 /* ... */
 .topdiv{
-    margin:auto;
+    position:relative;
+    top:50vw;
 }
 .top {
     position:relative;
