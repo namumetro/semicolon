@@ -65,16 +65,22 @@
         right: 10px;
         position: absolute;
     }
-    .main:not(.topdiv){
+    .main{
+        position:relative;
+        background:none;
+    }
+    .main::before{
+        position:absolute;
         width:100vw;
         height:50vw;
-        z-index:1;
-        position:relative;
         background-image:url("HatchfulExport-All/20210505_142334.png");
         background-repeat:no-repeat;
         background-position:center center;
         background-size:contain;
+        top:0;
+        z-index:-1;
         filter:blur(2.5px);
+        content:"";
     }
 /*footer*/
 .blackspace {
