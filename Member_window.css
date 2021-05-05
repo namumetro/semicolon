@@ -89,9 +89,12 @@
     }
 
     .Member-div-vicehost{
+        position:relative;
         margin-left: 10%;
         text-align: center;
         display:inline-block;
+        -webkit-animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
+        animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
     }
 
     .name-img-vicehost{
