@@ -65,7 +65,7 @@
         right: 10px;
         position: absolute;
     }
-    .main:not(h1){
+    .main:not(.topdiv){
         width:100vw;
         height:50vw;
         z-index:1;
@@ -126,10 +126,9 @@
 }
 /* ... */
 .topdiv{
-    position:relative;
     margin:0;
     padding:0;
-    top:-15vw;
+    top:20vw;
 }
 .top {
     position:relative;
