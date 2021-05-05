@@ -65,7 +65,7 @@
         right: 10px;
         position: absolute;
     }
-    .main:not(h1){
+    .main:not(h2){
         width:100vw;
         height:50vw;
         z-index:1;
