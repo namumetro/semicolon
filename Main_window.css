@@ -69,16 +69,16 @@
         position:relative;
         background:none;
         width:100vw;
-        height:50vw;
+        height:25vw;
     }
     .main::before{
         position:absolute;
         width:100vw;
-        height:50vw;
+        height:25vw;
         background-image:url("HatchfulExport-All/20210505_142334.png");
         background-repeat:no-repeat;
         background-position:center center;
-        background-size:contain;
+        background-size:cover;
         top:0;
         z-index:-1;
         filter:blur(2.5px);
