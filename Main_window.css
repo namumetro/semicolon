@@ -134,7 +134,8 @@
 }
 /* ... */
 .topdiv{
-    margin:auto;
+    position:relative;
+    margin:0;
     padding:0;
     top:20vw;
 }
