@@ -66,6 +66,8 @@
         position: absolute;
     }
     .main{
+        width:100vw;
+        height:57.5vw;
         z-index:1;
         position:relative;
         background-image:url("HatchfulExport-All/logo.png");
