@@ -127,7 +127,9 @@
 /* ... */
 .topdiv{
     position:relative;
-    top:50vw;
+    margin:0;
+    padding:0;
+    top:25vw;
 }
 .top {
     position:relative;
