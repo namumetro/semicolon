@@ -126,9 +126,11 @@
     bottom: 5px !important; 
 }
 /* ... */
+.topdiv{
+    margin:auto 0;
+}
 .top {
     position:relative;
-    margin:auto 0;
     text-align: center;
     -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
     animation: focus-in-contract-bck 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
@@ -138,7 +140,6 @@
 
 .top2 {
     position:relative;
-    margin:auto 0;
     text-align: center;
     color: rgb(255, 255, 255);
     text-shadow: -1px 0 #000,
