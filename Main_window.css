@@ -127,7 +127,7 @@
 }
 /* ... */
 .topdiv{
-    margin-top:auto;
+    margin:auto;
 }
 .top {
     position:relative;
