@@ -171,11 +171,7 @@
 .top2 {
     position:relative;
     text-align: center;
-    color: rgb(255, 255, 255);
-    text-shadow: -1px 0 #000,
-	       0 1px #000,
-	       1px 0 #000,
-	       0 -1px #000;
+    color: #777;
     -webkit-animation: focus-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
 	        animation: focus-in-contract-bck 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both; 
     z-index: 0;
