@@ -274,6 +274,7 @@
     .intro-div:hover{
         background-color:#000;
         color: #fff;
+        border-radius:10px;
     }
     .intro-div:hover button{
         background-color:#fff;
