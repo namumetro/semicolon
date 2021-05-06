@@ -269,9 +269,13 @@
 
     .intro-div{
         margin-top: 90px;
-        transition-property: background-color, color;
-        transition-duration: 1s;
+        transition: 1s;
     }
     .intro-div:hover{
         background-color:#000;
+        color: #fff;
+    }
+    .intro-div:hover button{
+        background-color:#fff;
+        color:#000;
     }
