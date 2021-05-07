@@ -271,6 +271,7 @@
         margin-top: 90px;
         transition: 1s;
         border-radius:25px;
+        padding:25px;
     }
     .intro-div:hover{
         background-color:#000;
