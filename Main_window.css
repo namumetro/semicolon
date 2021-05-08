@@ -60,6 +60,8 @@
         /* hr스타일 */
         background-color: rgb(0, 0, 0);
         height: 1px;
+        margin:0;
+        padding:0;
     }
 
     /* 개별 Tag(class) 작업은 이곳 밑으로 해주세요 */
