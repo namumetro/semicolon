@@ -27,6 +27,8 @@
     header{
         height:60px;
         background: url("1.png");
+        margin:0;
+        padding:0;
     }
 
     /* header div안에 있는 a Tag의 style 값 */
