@@ -293,3 +293,8 @@
         background-color:#fff;
         color:#000;
     }
+    .center{text-align:center;}
+    .right{text-align:right;}
+    .ldiv{float:left;}
+    .rdiv{float:right;}
+    .cdiv{margin:0 auto;}
