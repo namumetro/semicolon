@@ -30,7 +30,6 @@
     header{
         position:relative;
         height:60px;
-        background: url("1.png");
         margin:0;
         padding:0;
         -webkit-animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
