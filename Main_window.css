@@ -34,6 +34,7 @@
         padding:0;
     }
     header::before{
+        position:absolute;
         background: url("1.png");
         margin:0;
         padding:0;
