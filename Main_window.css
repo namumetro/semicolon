@@ -30,11 +30,37 @@
     header{
         position:relative;
         height:60px;
-        background: url("1.png");
         margin:0;
         padding:0;
     }
-
+    header::before{
+        background: url("1.png");
+        margin:0;
+        padding:0;
+        top:0;
+        z-index:-1;
+        opacity:0.5;
+        content:"";
+    }
+    .main{
+        position:relative;
+        background:none;
+        width:100vw;
+        height:25vw;
+    }
+    .main::before{
+        position:absolute;
+        width:100vw;
+        height:25vw;
+        background-image:url("HatchfulExport-All/20210505_142334.png");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+        top:0;
+        z-index:-1;
+        filter:blur(2.5px);
+        content:"";
+    }
     /* header div안에 있는 a Tag의 style 값 */
     header nav div a {
         margin:auto 10px;
@@ -92,25 +118,6 @@
     .header-div{
         right: 10px;
         position: absolute;
-    }
-    .main{
-        position:relative;
-        background:none;
-        width:100vw;
-        height:25vw;
-    }
-    .main::before{
-        position:absolute;
-        width:100vw;
-        height:25vw;
-        background-image:url("HatchfulExport-All/20210505_142334.png");
-        background-repeat:no-repeat;
-        background-position:center center;
-        background-size:cover;
-        top:0;
-        z-index:-1;
-        filter:blur(2.5px);
-        content:"";
     }
 /*footer*/
 .blackspace {
