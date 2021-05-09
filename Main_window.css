@@ -299,3 +299,4 @@
     .rdiv{float:right;}
     .cdiv{margin:0 auto;}
     .clear{clear:both;}
+    table tr td img{filter:blur(2.5px);}
