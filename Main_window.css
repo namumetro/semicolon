@@ -54,6 +54,22 @@
         filter:blur(2.5px);
         content:"";
     }
+    .aboutcontent{
+        position:relative;
+        background:none;
+        width:100vw;
+    }
+    .aboutcontent::before{
+        position:absolute;
+        width:100vw;
+        background-image:url("HatchfulExport-All/20210505_142334.png");
+        background-position:center center;
+        background-size:cover;
+        top:0;
+        z-index:-1;
+        filter:blur(2.5px);
+        content:"";
+    }
     /* header div안에 있는 a Tag의 style 값 */
     header nav div a {
         margin:auto 10px;
