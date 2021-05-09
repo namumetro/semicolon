@@ -40,6 +40,7 @@
         background:none;
         width:100vw;
         height:25vw;
+        text-align:center;
     }
     .main::before{
         position:absolute;
