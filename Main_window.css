@@ -58,10 +58,12 @@
         position:relative;
         background:none;
         width:100vw;
+        height:auto;
     }
     .aboutcontent::before{
         position:absolute;
         width:100vw;
+        height:auto;
         background-image:url("20210509_124934.png");
         background-position:center center;
         background-size:cover;
