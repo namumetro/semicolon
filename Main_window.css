@@ -76,8 +76,11 @@
         filter:blur(2.5px);
         content:"";
     }
-    .aboutdiv>p{
-        margin:0 auto;
+    .aboutdiv>div{
+        margin:auto;
+    }
+    .aboutdiv div p{
+        text-align:center;
     }
     /* header div안에 있는 a Tag의 style 값 */
     header nav div a {
