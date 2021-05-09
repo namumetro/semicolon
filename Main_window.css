@@ -62,7 +62,6 @@
         color:#fff;
         font-weight:bold;
         font-size:large;
-        text-align:center;
     }
     .aboutdiv::before{
         position:absolute;
@@ -76,6 +75,9 @@
         z-index:-1;
         filter:blur(2.5px);
         content:"";
+    }
+    .aboutdiv p{
+        margin:auto;
     }
     /* header div안에 있는 a Tag의 style 값 */
     header nav div a {
