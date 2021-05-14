@@ -77,12 +77,12 @@
     .aboutcontent{
         position:relative;
         background:none;
-        width:100vw;
+        width:100%;
         height:auto;
     }
     .aboutcontent::before{
         position:absolute;
-        width:100vw;
+        width:100%;
         height:auto;
         background-image:url("20210509_124934.png");
         background-position:center center;
