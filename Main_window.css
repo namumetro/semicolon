@@ -35,6 +35,26 @@
         -webkit-animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
         animation: left-to-right 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) alternate both;
     }
+    .recruitcontent{
+        position:relative;
+        background:none;
+        width:100vw;
+        height:25vw;
+        color:#fff;
+    }
+    .recruitcontent::before{
+        position:absolute;
+        width:100vw;
+        height:25vw;
+        background-image:url("");
+        background-repeat:no-repeat;
+        background-position:center center;
+        background-size:cover;
+        top:0;
+        z-index:-1;
+        filter:blur(2.5px);
+        content:"";
+    }
     .main{
         position:relative;
         background:none;
