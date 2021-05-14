@@ -38,14 +38,14 @@
     .recruitcontent{
         position:relative;
         background:none;
-        width:100vw;
+        width:auto;
         height:25vw;
         color:#fff;
     }
     .recruitcontent::before{
         position:absolute;
-        width:100vw;
-        height:25vw;
+        width:100%;
+        height:auto;
         background-image:url("");
         background-repeat:no-repeat;
         background-position:center center;
