@@ -38,8 +38,8 @@
     .recruitcontent{
         position:relative;
         background:none;
-        width:auto;
-        height:25vw;
+        width:100%;
+        height:auto;
         color:#fff;
     }
     .recruitcontent::before{
