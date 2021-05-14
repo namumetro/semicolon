@@ -44,7 +44,7 @@
     }
     .recruitcontent::before{
         position:absolute;
-        width:100%;
+        width:100vw;
         height:auto;
         background-image:url("20210509_124934.png");
         background-repeat:no-repeat;
